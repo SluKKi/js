@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БИБЛИОТЕКИ_УЧЕБНЫЙ ПРОЕКТ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header id ="top">
+    <div class="one">
+    <h1>ГЛАВНАЯ</h1>
+    <div class="action">
+        <button data-target="#contact" data-mt-duration="300" data-tippy-content="Нажмите, чтобы с кем-нибудь поговорить">КОНТАКТЫ</button>
+        <button data-target="#opportunities" data-mt-duration="300" data-tippy-content="Нажмите, чтобы посмотреть возможности">ВОЗМОЖНОСТИ</button>
+        <button data-target="#map" data-mt-duration="300" data-tippy-content="Нажмите, чтобы увидеть карту">КАРТА</button>
+    </div>
+</div>
+</header>
+<div class="two">
+<section id="opportunities">
+    <h2>ВОЗМОЖНОСТИ</h2>
+    <button data-target="#top" data-mt-duration="300" data-tippy-content="Нажмите, чтобы перейти на главную">ГЛАВНАЯ</button>
+    <button data-target="#contact" data-mt-duration="300" data-tippy-content="Нажмите, чтобы с кем-нибудь поговорить">КОНТАКТЫ</button>
+    <button data-target="#map" data-mt-duration="300" data-tippy-content="Нажмите, чтобы увидеть карту">КАРТА</button>
+</section>
+</div>
+
+<div class="three">
+<section id="contact">
+    <div>
+        <h2>КОНТАКТЫ</h2>
+        <button data-target="#top" data-mt-duration="300" data-tippy-content="Нажмите, чтобы перейти на главную">ГЛАВНАЯ</button>
+        <button data-target="#opportunities" data-mt-duration="300" data-tippy-content="Нажмите, чтобы посмотреть возможности">ВОЗМОЖНОСТИ</button>
+        <button data-target="#map" data-mt-duration="300" data-tippy-content="Нажмите, чтобы увидеть карту">КАРТА</button>
+    </div>
+</section>
+</div>
+<div class="four">
+    <section id="map">
+        <div>
+            <h2>КАРТА</h2>
+            <button data-target="#top" data-mt-duration="300" data-tippy-content="Нажмите, чтобы перейти на главную">ГЛАВНАЯ</button>
+            <button data-target="#opportunities" data-mt-duration="300" data-tippy-content="Нажмите, чтобы посмотреть возможности">ВОЗМОЖНОСТИ</button>
+            <button data-target="#contact" data-mt-duration="300" data-tippy-content="Нажмите, чтобы с кем-нибудь поговорить">КОНТАКТ</button>
+        </div>
+    </section>
+</div>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="moveTo.js"></script>
+<script  src="script.js"></script> 
+
+</body>
+</html>
